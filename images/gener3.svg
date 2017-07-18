@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="308.28098pt"
+   height="307.42807pt"
+   viewBox="130 89 216.86962 214.99369"
+   version="1.1"
+   id="svg103"
+   sodipodi:docname="gener3.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata109">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs107" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1463"
+     inkscape:window-height="1113"
+     id="namedview105"
+     showgrid="false"
+     units="pt"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-top="10"
+     fit-margin-bottom="10"
+     inkscape:zoom="1"
+     inkscape:cx="206.4683"
+     inkscape:cy="204.95205"
+     inkscape:window-x="75"
+     inkscape:window-y="34"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg103" />
+  <g
+     id="Background"
+     transform="matrix(0.6,0,0,0.6,59.034804,41.634804)">
+    <g
+       id="g8">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         x="210"
+         y="90"
+         width="100.9"
+         height="36"
+         rx="20"
+         ry="20"
+         id="rect2" />
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="260.45001"
+         y="111.9"
+         id="text6">
+        <tspan
+           x="260.45001"
+           y="111.9"
+           id="tspan4">addAcc(a, b)</tspan>
+      </text>
+    </g>
+    <g
+       id="g16">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         x="150"
+         y="160"
+         width="80"
+         height="36"
+         rx="20"
+         ry="20"
+         id="rect10" />
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="190"
+         y="181.89999"
+         id="text14">
+        <tspan
+           x="190"
+           y="181.89999"
+           id="tspan12">b</tspan>
+      </text>
+    </g>
+    <g
+       id="g24">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         x="256.37601"
+         y="160.5"
+         width="127.2"
+         height="36"
+         rx="20"
+         ry="20"
+         id="rect18" />
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="319.97601"
+         y="182.39999"
+         id="text22">
+        <tspan
+           x="319.97601"
+           y="182.39999"
+           id="tspan20">addAcc(a1, S(b))</tspan>
+      </text>
+    </g>
+    <g
+       id="g32">
+      <line
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         x1="205.14999"
+         y1="152.289"
+         x2="256.79999"
+         y2="126"
+         id="line26" />
+      <polygon
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         points="190.891,159.546 207.418,156.745 202.882,147.833 "
+         id="polygon28" />
+      <text
+         font-size="12.7998"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="204"
+         y="140.5"
+         id="text30">a = Z</text>
+    </g>
+    <g
+       id="g40">
+      <line
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         x1="300.49399"
+         y1="151.845"
+         x2="256.79999"
+         y2="126"
+         id="line34" />
+      <polygon
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         points="314.265,159.991 303.04,147.542 297.949,156.149 "
+         id="polygon36" />
+      <text
+         font-size="12.7998"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="317.82401"
+         y="140.75"
+         id="text38">a = S(a1)</text>
+    </g>
+    <g
+       id="g48">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         x="188.5"
+         y="232.5"
+         width="276.25"
+         height="36"
+         rx="20"
+         ry="20"
+         id="rect42" />
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="326.625"
+         y="254.39999"
+         id="text46">
+        <tspan
+           x="326.625"
+           y="254.39999"
+           id="tspan44">let v1 = a1, v2 = S(b) in addAcc(v1, v2)</tspan>
+      </text>
+    </g>
+    <g
+       id="g54">
+      <line
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         x1="315.12601"
+         y1="215.5"
+         x2="315.12601"
+         y2="196.5"
+         id="line50" />
+      <polygon
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         points="315.126,231.5 320.126,215.5 310.126,215.5 "
+         id="polygon52" />
+    </g>
+    <g
+       id="g62">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         x="163"
+         y="309"
+         width="116.4"
+         height="36"
+         rx="20"
+         ry="20"
+         id="rect56" />
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="221.2"
+         y="330.89999"
+         id="text60">
+        <tspan
+           x="221.2"
+           y="330.89999"
+           id="tspan58">addAcc(v1, v2)</tspan>
+      </text>
+    </g>
+    <g
+       id="g70">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         x="286.82599"
+         y="309"
+         width="80"
+         height="36"
+         rx="20"
+         ry="20"
+         id="rect64" />
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="326.82599"
+         y="330.89999"
+         id="text68">
+        <tspan
+           x="326.82599"
+           y="330.89999"
+           id="tspan66">a1</tspan>
+      </text>
+    </g>
+    <g
+       id="g78">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         x="383"
+         y="309"
+         width="80"
+         height="36"
+         rx="20"
+         ry="20"
+         id="rect72" />
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="423"
+         y="330.89999"
+         id="text76">
+        <tspan
+           x="423"
+           y="330.89999"
+           id="tspan74">S(b)</tspan>
+      </text>
+    </g>
+    <g
+       id="g86">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         x="387"
+         y="389"
+         width="80"
+         height="36"
+         rx="20"
+         ry="20"
+         id="rect80" />
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="427"
+         y="410.89999"
+         id="text84">
+        <tspan
+           x="427"
+           y="410.89999"
+           id="tspan82">b</tspan>
+      </text>
+    </g>
+    <polygon
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-opacity:1"
+       points="223.094,288.481 217.695,288.481 217.695,277.684 206.898,277.684 206.898,288.481 201.5,288.481 212.297,299.278 "
+       id="polygon88" />
+    <polygon
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-opacity:1"
+       points="338.07,288.481 332.671,288.481 332.671,277.684 321.874,277.684 321.874,288.481 316.476,288.481 327.273,299.278 "
+       id="polygon90" />
+    <polygon
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-opacity:1"
+       points="433.544,288.481 428.145,288.481 428.145,277.684 417.348,277.684 417.348,288.481 411.95,288.481 422.747,299.278 "
+       id="polygon92" />
+    <polygon
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-opacity:1"
+       points="434.52,366.793 429.121,366.793 429.121,355.996 418.324,355.996 418.324,366.793 412.926,366.793 423.723,377.59 "
+       id="polygon94" />
+    <g
+       id="g100">
+      <polyline
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:4;stroke-opacity:1"
+         points="163,327 131,327 131,108 200.264,108 "
+         id="polyline96" />
+      <polygon
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         points="207.764,108 197.764,113 200.264,108 197.764,103 "
+         id="polygon98" />
+    </g>
+  </g>
+</svg>

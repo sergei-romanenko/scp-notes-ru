@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="342.84143pt"
+   height="250.25511pt"
+   viewBox="9 9 233.61836 165.21802"
+   version="1.1"
+   id="svg89"
+   sodipodi:docname="homeomorphic-embedding1.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata95">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs93" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1334"
+     inkscape:window-height="1082"
+     id="namedview91"
+     showgrid="false"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10"
+     units="pt"
+     inkscape:zoom="1"
+     inkscape:cx="228.90336"
+     inkscape:cy="163.30413"
+     inkscape:window-x="75"
+     inkscape:window-y="34"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg89" />
+  <g
+     id="Background"
+     transform="matrix(0.6,0,0,0.6,10.414181,7.7590103)">
+    <g
+       id="g8">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         x="70"
+         y="10"
+         width="80"
+         height="36"
+         rx="20"
+         ry="20"
+         id="rect2" />
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="110"
+         y="31.9"
+         id="text6">
+        <tspan
+           x="110"
+           y="31.9"
+           id="tspan4">mult(a,b)</tspan>
+      </text>
+    </g>
+    <g
+       id="g16">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         x="10"
+         y="85.5"
+         width="80"
+         height="36"
+         rx="20"
+         ry="20"
+         id="rect10" />
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="50"
+         y="107.4"
+         id="text14">
+        <tspan
+           x="50"
+           y="107.4"
+           id="tspan12">Z</tspan>
+      </text>
+    </g>
+    <g
+       id="g24">
+      <line
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         x1="64.199203"
+         y1="76.152199"
+         x2="110"
+         y2="46"
+         id="line18" />
+      <polygon
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         points="61.4499,71.9759 50.8352,84.9501 66.9486,80.3284 "
+         id="polygon20" />
+      <text
+         font-size="12.7998"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="60"
+         y="62.75"
+         id="text22">a = Z</text>
+    </g>
+    <g
+       id="g32">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         x="110"
+         y="85.5"
+         width="141.75"
+         height="36"
+         rx="20"
+         ry="20"
+         id="rect26" />
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="180.875"
+         y="107.4"
+         id="text30">
+        <tspan
+           x="180.875"
+           y="107.4"
+           id="tspan28">add(mult(a1, b), b)</tspan>
+      </text>
+    </g>
+    <g
+       id="g40">
+      <line
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         x1="166.02499"
+         y1="77.224098"
+         x2="110"
+         y2="46"
+         id="line34" />
+      <polygon
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         points="163.591,81.5916 180.001,85.0132 168.46,72.8566 "
+         id="polygon36" />
+      <text
+         font-size="12.7998"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="172.72501"
+         y="62.75"
+         id="text38">a = S(a1)</text>
+    </g>
+    <g
+       id="g48">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         x="80"
+         y="163.5"
+         width="80"
+         height="36"
+         rx="20"
+         ry="20"
+         id="rect42" />
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="120"
+         y="185.39999"
+         id="text46">
+        <tspan
+           x="120"
+           y="185.39999"
+           id="tspan44">add(Z, b)</tspan>
+      </text>
+    </g>
+    <g
+       id="g56">
+      <line
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         x1="133.993"
+         y1="153.84599"
+         x2="180.875"
+         y2="121.5"
+         id="line50" />
+      <polygon
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         points="131.153,149.73 120.823,162.932 136.832,157.961 "
+         id="polygon52" />
+      <text
+         font-size="12.7998"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="122.725"
+         y="139.5"
+         id="text54">a1 = Z</text>
+    </g>
+    <g
+       id="g64">
+      <line
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         x1="233.15199"
+         y1="153.605"
+         x2="180.875"
+         y2="121.5"
+         id="line58" />
+      <polygon
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         points="230.535,157.865 246.786,161.978 235.769,149.344 "
+         id="polygon60" />
+      <text
+         font-size="12.7998"
+         style="font-style:normal;font-weight:normal;font-size:12.79979992px;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="257.36899"
+         y="139"
+         id="text62">a1 = S(a2)</text>
+    </g>
+    <g
+       id="g70">
+      <line
+         style="fill:none;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         x1="120"
+         y1="216.5"
+         x2="120"
+         y2="199.5"
+         id="line66" />
+      <polygon
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         points="115,216.5 120,232.5 125,216.5 "
+         id="polygon68" />
+    </g>
+    <g
+       id="g78">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         x="80"
+         y="233.5"
+         width="80"
+         height="36"
+         rx="20"
+         ry="20"
+         id="rect72" />
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="120"
+         y="255.39999"
+         id="text76">
+        <tspan
+           x="120"
+           y="255.39999"
+           id="tspan74">b</tspan>
+      </text>
+    </g>
+    <g
+       id="g86">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1"
+         x="182.5"
+         y="163.5"
+         width="192.14999"
+         height="36"
+         rx="20"
+         ry="20"
+         id="rect80" />
+      <text
+         font-size="12.8"
+         style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="278.57501"
+         y="185.39999"
+         id="text84">
+        <tspan
+           x="278.57501"
+           y="185.39999"
+           id="tspan82">add(add(mult(a2, b), b), b)</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
