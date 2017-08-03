@@ -18,10 +18,8 @@
 
 Сейчас мы постараемся подробнее разобраться, как выглядит прогонка в
 случае "ленивого" языка с функциями высших порядков. Суперкомпилятор
-[HOSC](http://code.google.com/p/hosc/)
-обрабатывает программы именно на
-языке такого рода:
-[Higher Order Lazy Language (HLL)](http://code.google.com/p/hosc/wiki/HigherOrderLazyLanguage).
+[HOSC][] обрабатывает программы именно на языке такого рода:
+[Higher Order Lazy Language (HLL)][HLL].
 
 В случае языка HLL, программа имеет следующий вид:
 
@@ -59,8 +57,7 @@
 содержать **свободные** переменные, а при прогонке - может.
 
 Заметим, что в случае вычислений первого порядка (как в суперкомпиляторе
-[SPSC](https://sergei-romanenko.github.io/spsc/))
-было достаточно сказать, что
+[SPSC][] было достаточно сказать, что
 выражение вообще не содержит переменные (или содержит), а в случае
 высшего порядка приходится ещё различать свободные и связанные переменные.
 
@@ -79,8 +76,8 @@
     add (S Z) Z
 
 И вот тут-то и начинается самое страшное. В случае языка первого порядка
-(как в [SPSC](https://sergei-romanenko.github.io/spsc/)) мы сразу же, за один шаг,
-преобразовали бы это выражение в выражение
+(как в [SPSC][] мы сразу же, за один шаг, преобразовали бы это выражение
+в выражение
 
     S (add Z Z)
 
@@ -213,8 +210,7 @@ case-выражении?
 
 ![](images/ho-driving1.svg)
 
-Суперкомплятор HOSC именно такой граф и делает:
-[add a b](http://hosc.appspot.com/view?key=agpzfmhvc2MtaHJkcjQLEgZBdXRob3IiGnNlcmdlaS5yb21hbmVua29AZ21haWwuY29tDAsSB1Byb2dyYW0YyWUM)
+Суперкомплятор HOSC именно такой граф и делает: [add a b][].
 
 Впрочем, этот граф виден, если рассматривать пример через FireFox, ибо
 для рисования графа используется svg-графика. FireFox рисует эти графы
@@ -250,7 +246,6 @@ case-выражении?
 
 **26 декабря 2009 г**
 
-
 Вот он, обещанный в тексте послания, многострадальный документ,
 описывающий внутренности HOSC-а!
 
@@ -270,3 +265,11 @@ case-выражении?
 ---
 
 [Оригинал послания и комментарии](http://metacomputation-ru.blogspot.com/2009/06/ho-driving.html)
+
+[SPSC]: https://sergei-romanenko.github.io/spsc/
+
+[HOSC]: https://sergei-romanenko.github.io/hosc-docs/
+
+[HLL]: https://sergei-romanenko.github.io/hosc-docs/HigherOrderLazyLanguage
+
+[add a b]: http://hosc.appspot.com/view?key=agpzfmhvc2MtaHJkcjQLEgZBdXRob3IiGnNlcmdlaS5yb21hbmVua29AZ21haWwuY29tDAsSB1Byb2dyYW0YyWUM

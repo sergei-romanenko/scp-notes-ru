@@ -134,10 +134,7 @@
 правильными и здравыми, поскольку они выжили, победили, и превратились
 нечто "очевидное" и "тривиальное". :-)
 
-Вот и
-[HLL](http://code.google.com/p/hosc/wiki/HigherOrderLazyLanguage),
-входной язык суперкомпилятора
-[HOSC](http://code.google.com/p/hosc/),
+Вот и [HLL][HLL], входной язык суперкомпилятора [HOSC][],
 по сути, включает Рефал в качестве подмножества: есть в нём и деревья, в
 качестве данных, и сопоставление с образцом, и рекурсивные функции.
 Правда, как объясняется в послании
@@ -593,3 +590,7 @@
 ---
 
 [Оригинал послания и комментарии](http://metacomputation-ru.blogspot.com/2009/06/ho-dsl.html)
+
+[HOSC]: https://sergei-romanenko.github.io/hosc-docs/
+
+[HLL]: https://sergei-romanenko.github.io/hosc-docs/HigherOrderLazyLanguage

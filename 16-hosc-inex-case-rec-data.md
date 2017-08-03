@@ -152,11 +152,7 @@ case-выражения вида
     letrec f=case f of { N n -> N (S n); } in f
 
 Справедливости следует отметить, что суперкомпиляторы, имеющие дело с
-динамически типизированными языками, например SPSC и SPC4,
-
-  * [A Small Positive Supercompiler in Scala](http://code.google.com/p/spsc/)
-  * [SCP4 Documentation](http://www.botik.ru/%7Escp/doc/docs.html)
-
+динамически типизированными языками, например [SPSC][] и [SCP4][],
 изначально умеют работать с неполными case-выражениями (представленными
 в других обличьях). Просто из-за того, что при отсутствии статической
 типизации и объявлений типов данных, непонятно, что могло бы обозначать
@@ -291,3 +287,7 @@ case-выражения вида
 ---
 
 [Оригинал послания и комментарии](http://metacomputation-ru.blogspot.com/2010/01/hosc-inex-case-rec-data.html)
+
+[SCP4]: http://www.botik.ru/pub/local/scp/refal5/references.html
+
+[SPSC]: https://sergei-romanenko.github.io/spsc/

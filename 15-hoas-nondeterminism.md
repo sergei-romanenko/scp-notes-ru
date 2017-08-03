@@ -61,10 +61,9 @@
 результатом вычисления всей конструкции `choice2 e1 e2`.
 
 Как и в предыдущих посланиях, мы реализуем "недетерминированное"
-λ-исчисление как расширение языка
-[HLL](http://code.google.com/p/hosc/wiki/HigherOrderLazyLanguage).
-HLL - это подмножество языка Haskell, являющееся входным языком суперкомпилятора
-[HOSC](http://code.google.com/p/hosc/).
+λ-исчисление как расширение языка [HLL][HLL]. HLL - это подмножество
+языка Haskell, являющееся входным языком суперкомпилятора
+[HOSC][].
 
 Итак, нам нужно реализовать недетерминизм, а любая программа на языке
 HLL - детерминированная. Откуда же может взяться недетерминизм? Ответ
@@ -363,3 +362,7 @@ case-выражения, в которых набор конструкторов
 ---
 
 [Оригинал послания и комментарии](http://metacomputation-ru.blogspot.com/2010/01/hoas-nondeterminism_4687.html)
+
+[HOSC]: https://sergei-romanenko.github.io/hosc-docs/
+
+[HLL]: https://sergei-romanenko.github.io/hosc-docs/HigherOrderLazyLanguage
