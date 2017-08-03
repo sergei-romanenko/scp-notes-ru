@@ -287,3 +287,7 @@ case-выражения вида
     letrec f=(Cons True (Cons False f)) in f
 
 Хоск не догадался. "Мозгов" ему не хватило... Но и так результат неплохой.
+
+---
+
+[Оригинал послания и комментарии](http://metacomputation-ru.blogspot.com/2010/01/hosc-inex-case-rec-data.html)

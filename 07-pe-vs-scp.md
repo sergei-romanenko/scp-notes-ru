@@ -258,3 +258,6 @@ specialization), поскольку можно не генерировать с�
   [PDF](http://pat.keldysh.ru/%7Eroman/doc/1990-Romanenko--Arity_Raiser_and_its_Use_in_Program_Specialization.pdf)
   [DJVU](http://pat.keldysh.ru/%7Eroman/doc/1990-Romanenko--Arity_Raiser_and_its_Use_in_Program_Specialization.djvu)
 
+---
+
+[Оригинал послания и комментарии](http://metacomputation-ru.blogspot.com/2009/06/meta-ru-pe-vs-scp.html)

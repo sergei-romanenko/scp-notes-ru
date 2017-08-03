@@ -266,3 +266,7 @@ case-выражении?
     concepts and algorithms the supercompiler is based upon.
 
     <http://library.keldysh.ru/preprint.asp?id=2009-63>
+
+---
+
+[Оригинал послания и комментарии](http://metacomputation-ru.blogspot.com/2009/06/ho-driving.html)

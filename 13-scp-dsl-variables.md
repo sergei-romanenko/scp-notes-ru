@@ -629,3 +629,6 @@ Haskell таким способом сконструировать среду н
 [Lambda: higher-order syntax](http://hosc.appspot.com/view?key=agpzfmhvc2MtaHJkcjQLEgZBdXRob3IiGnNlcmdlaS5yb21hbmVua29AZ21haWwuY29tDAsSB1Byb2dyYW0YmXUM)
 для суперкомпилятора HOSC.
 
+---
+
+[Оригинал послания и комментарии](http://metacomputation-ru.blogspot.com/2009/12/scp-dsl-variables_27.html)

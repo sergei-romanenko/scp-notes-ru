@@ -1,5 +1,7 @@
 # Заметки по суперкомпиляции
 
+Послания **Сергея Романенко**
+
 * [Зачем понадобилось переносить заметки из blogspot.ru?](00-from-blogspot.md)
 * [Что такое суперкомпиляция?](01-what-is-scp.md)
 * [Обобщение конфигураций при суперкомпиляции](02-generalization.md)
@@ -23,10 +25,10 @@
 * [Недетерминизм: выбор по надобности или выбор при вызове?](18-need-time-vs-call-time-choice.md)
 * [Крупношаговая суперкомпиляция (big-step supercompilation)](19-big-step-supercompilation.md)
 
-<!--
-* [Комбинаторные парсеры. Часть
-  1](http://metacomputation-ru.blogspot.com/2010/04/1.html)
--->
+Послания **Ильи Ключникова**
+
+* [Комбинаторные парсеры. Часть 1](http://metacomputation-ru.blogspot.com/2010/04/1.html)
+* [Саймон Пейтон Джонс о Meta 2010 и суперкомпиляции](http://metacomputation-ru.blogspot.ru/2010/11/meta-2010.html)
 
 > Первоначально, "Заметки" были выставлены в Интернете в виде посланий
 > в блоге <http://metacomputation-ru.blogspot.ru>.

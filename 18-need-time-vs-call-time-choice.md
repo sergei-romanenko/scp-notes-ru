@@ -467,3 +467,7 @@ run (choice2 (cst Z) (choice2 (cst (S Z)) (cst (S(S Z))))) ⟹
 
 Ну что же, суперкомпилятор Хоск показал себя молодцом! В остаточной
 программе от комбинаторов ничего не осталось...
+
+---
+
+[Оригинал послания и комментарии](http://metacomputation-ru.blogspot.com/2010/02/need-time-vs-call-time-choice_14.html)

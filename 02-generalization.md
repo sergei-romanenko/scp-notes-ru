@@ -198,6 +198,10 @@ S(b))`. Удалим те части двух выражений, которые
 только суперкомпиляцию как таковую, но и любые дополнительные методы,
 увеличивающие способности суперкомпилятора.
 
+---
+
+[Оригинал послания и комментарии](http://metacomputation-ru.blogspot.com/2009/05/meta-ru-generalization.html)
+
 [wiscp]: 01-what-is-scp.md
 
 [addAcc(a, b)]: http://spsc.appspot.com/view?key=agpzfnNwc2MtaHJkcjQLEgZBdXRob3IiGnNlcmdlaS5yb21hbmVua29AZ21haWwuY29tDAsSB1Byb2dyYW0YgRkM
