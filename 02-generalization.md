@@ -185,7 +185,7 @@ S(b))`. Удалим те части двух выражений, которые
 
 ![](images/gener3.svg)
 
-Можно посмотреть, как справляется с этим примером суперкомпилятор spsc:
+Можно посмотреть, как справляется с этим примером суперкомпилятор [SPSC][]:
 [addAcc(a, b)][] и [addAcc(a, Z)][].
 
 Если из этого графа построить остаточную программу, то оказывается, что
@@ -203,6 +203,8 @@ S(b))`. Удалим те части двух выражений, которые
 [Оригинал послания и комментарии](http://metacomputation-ru.blogspot.com/2009/05/meta-ru-generalization.html)
 
 [wiscp]: 01-what-is-scp.md
+
+[SPSC]: https://sergei-romanenko.github.io/spsc/
 
 [addAcc(a, b)]: http://spsc.appspot.com/view?key=agpzfnNwc2MtaHJkcjQLEgZBdXRob3IiGnNlcmdlaS5yb21hbmVua29AZ21haWwuY29tDAsSB1Byb2dyYW0YgRkM
 

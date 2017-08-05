@@ -321,7 +321,7 @@
 открыт Футамурой (и, независимо от него, Турчиным) и в настоящее время
 его чаще всего называют "первой проекцией Футамуры". Подробнее я об этом
 писал в послании
-[Ранняя история суперкомпиляции](03-early-history.md).
+[Ранняя история суперкомпиляции][early-history].
 
 А применительно к проблемно-ориентированным языкам вывод такой:
 суперкомпиляция даёт возможность реализовывать объектно-ориентированные
@@ -458,8 +458,7 @@
 И эта программа (с точностью до имён переменных) совпадает с остаточной
 программой, которая получилась в результате специализации интерпретатора
 `intR` по отношению к R-программе! "Вживую" этот пример можно посмотреть
-здесь:
-[Parsing (higher order = combinators)](http://hosc.appspot.com/view?key=agpzfmhvc2MtaHJkcjQLEgZBdXRob3IiGnNlcmdlaS5yb21hbmVua29AZ21haWwuY29tDAsSB1Byb2dyYW0Y8S4M).
+здесь: [Parsing (higher order = combinators)][].
 
 Итак, суперкомпиляция позволяет избавиться от накладных расходов,
 связанных с интерпретацией, при реализации проблемно-ориентированных
@@ -591,6 +590,10 @@
 
 [Оригинал послания и комментарии](http://metacomputation-ru.blogspot.com/2009/06/ho-dsl.html)
 
+[early-history]: 03-early-history.md
+
 [HOSC]: https://sergei-romanenko.github.io/hosc-docs/
 
 [HLL]: https://sergei-romanenko.github.io/hosc-docs/HigherOrderLazyLanguage
+
+[Parsing (higher order = combinators)]: http://hosc.appspot.com/view?key=agpzfmhvc2MtaHJkcjQLEgZBdXRob3IiGnNlcmdlaS5yb21hbmVua29AZ21haWwuY29tDAsSB1Byb2dyYW0Y8S4M

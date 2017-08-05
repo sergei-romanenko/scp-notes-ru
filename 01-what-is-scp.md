@@ -358,11 +358,11 @@
     g2(Z, a) = a;
 
 Ну, а теперь можно посмотреть, что делает с рассмотренной программой
-реальный суперкомпилятор spsc: [AddAdd][].
+реальный суперкомпилятор [SPSC]: [AddAdd][].
 
 Если у вас есть аккаунт в Гугле, можете сделать Sign In и тогда
-появляется возможность заводить свои собственные задания для spsc через
-веб-интерфейс.
+появляется возможность заводить свои собственные задания для [SPSC][]
+через [веб-интерфейс][spsc-web].
 
 ---
 
@@ -370,6 +370,10 @@
 
 [wiki-scp]: http://ru.wikipedia.org/wiki/%D0%A1%D1%83%D0%BF%D0%B5%D1%80%D0%BA%D0%BE%D0%BC%D0%BF%D0%B8%D0%BB%D1%8F%D1%86%D0%B8%D1%8F
 
+[SPSC]: https://sergei-romanenko.github.io/spsc/
+
 [SLL]: https://sergei-romanenko.github.io/spsc/SimpleLazyFirstOrderLanguage
+
+[spsc-web]: http://spsc.appspot.com/all
 
 [AddAdd]: http://spsc.appspot.com/view?key=agpzfnNwc2MtaHJkcjQLEgZBdXRob3IiGnNlcmdlaS5yb21hbmVua29AZ21haWwuY29tDAsSB1Byb2dyYW0YmhEM
