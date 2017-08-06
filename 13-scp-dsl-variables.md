@@ -44,10 +44,10 @@ HOSC-а на более абстрактном уровне, это заняти
 
 Итак, в посланиях
 
-  * [Проблемно-ориентированные языки и суперкомпиляция](10-ho-dsl.md)
+  * [Проблемно-ориентированные языки и суперкомпиляция][ho-dsl]
 
   * [Многостадийное программирование, метавычисления и
-    проблемно-ориентированные языки](11-multi-stage-programming.md)
+    проблемно-ориентированные языки][multi-stage-programming]
 
 обсуждалась следующая идея: суперкомпиляция может использоваться для
 реализации "проблемно-ориентированных" (ПО) языков программирования
@@ -72,7 +72,7 @@ HOSC-а на более абстрактном уровне, это заняти
 
 Эта идея обсуждалась в послании
 
-  * [Проблемно-ориентированные языки и суперкомпиляция](10-ho-dsl.md)
+  * [Проблемно-ориентированные языки и суперкомпиляция][ho-dsl]
 
 на примере функциональных парсеров.
 
@@ -316,8 +316,7 @@ HOSC-а на более абстрактном уровне, это заняти
 
 Можно погонять и посуперкомпилировать этот интерпретатор "вживую",
 используя заранее заготовленное задание
-[Lambda: first-order syntax (FOCL)](http://hosc.appspot.com/view?key=agpzfmhvc2MtaHJkcjQLEgZBdXRob3IiGnNlcmdlaS5yb21hbmVua29AZ21haWwuY29tDAsSB1Byb2dyYW0YhH0M)
-для суперкомпилятора HOSC.
+[Lambda: first-order syntax (FOCL)][] для суперкомпилятора HOSC.
 
 Например,
 
@@ -627,13 +626,20 @@ Haskell таким способом сконструировать среду н
 
 Можно погонять и посуперкомпилировать интерпретатор, реализованный через
 комбинаторы вживую используя заранее заготовленное задание
-[Lambda: higher-order syntax](http://hosc.appspot.com/view?key=agpzfmhvc2MtaHJkcjQLEgZBdXRob3IiGnNlcmdlaS5yb21hbmVua29AZ21haWwuY29tDAsSB1Byb2dyYW0YmXUM)
-для суперкомпилятора HOSC.
+[Lambda: higher-order syntax][] для суперкомпилятора HOSC.
 
 ---
 
 [Оригинал послания и комментарии](http://metacomputation-ru.blogspot.com/2009/12/scp-dsl-variables_27.html)
 
+[ho-dsl]: 10-ho-dsl.md
+
+[multi-stage-programming]: 11-multi-stage-programming.md
+
 [HOSC]: https://sergei-romanenko.github.io/hosc-docs/
 
 [HLL]: https://sergei-romanenko.github.io/hosc-docs/HigherOrderLazyLanguage
+
+[Lambda: first-order syntax (FOCL)]: http://hosc.appspot.com/view?key=agpzfmhvc2MtaHJkcjQLEgZBdXRob3IiGnNlcmdlaS5yb21hbmVua29AZ21haWwuY29tDAsSB1Byb2dyYW0YhH0M
+
+[Lambda: higher-order syntax]: http://hosc.appspot.com/view?key=agpzfmhvc2MtaHJkcjQLEgZBdXRob3IiGnNlcmdlaS5yb21hbmVua29AZ21haWwuY29tDAsSB1Byb2dyYW0YmXUM

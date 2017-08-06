@@ -4,7 +4,7 @@
 
 **28 января 2010 г.**
 
-Некоторое время назад в HLL, входной язык суперкомпилятора Хоск (HOSC),
+Некоторое время назад в HLL, входной язык суперкомпилятора [HOSC][],
 были "тихой сапой" добавлены кое-какие маленькие, но приятные
 возможности. Вроде бы они не очень и нужны, но их отсутствие время от
 времени "напрягало" и заставляло использовать в исходных программах
@@ -25,7 +25,7 @@
 
     case e_0 of {C_1 ... -> e_1 ; C_2 ... -> e_2 ; ... C_n -> e_n ; }
 
-Идея была примерно такая: Хоск предполагается использовать для анализа
+Идея была примерно такая: [HOSC][] предполагается использовать для анализа
 программ, а программы должны использоваться как средство формализации
 чего-то в виде исполняемых спецификаций. Однако, если сами спецификации
 будут содержать ошибки, то и результаты анализа будут бредовые. Поэтому
@@ -58,7 +58,7 @@
 именно означает этот error, но плохо уже то, что в программе пришлось
 вообще что-то писать для случаев, которых "не должно быть".
 
-Поэтому, теперь в HLL, входном языке Хоска, разрешается часть
+Поэтому, теперь в HLL, входном языке [HOSC][]-а, разрешается часть
 конструкторов в case-выражениях опускать. Т.е., функции `tail` и `pred`
 теперь можно определить так:
 
@@ -94,11 +94,10 @@ case-выражения вида
 
 В качестве реального примера, когда применение неполных case-выражений
 позволяет уменьшить размер программы и делает программу более понятной,
-можно сравнить два варианта интерпретатора λ-выражений
+можно сравнить два варианта интерпретатора λ-выражений:
 
-  * [Lambda: first-order syntax (FOCL)](http://hosc.appspot.com/view?key=agpzfmhvc2MtaHJkcjQLEgZBdXRob3IiGnNlcmdlaS5yb21hbmVua29AZ21haWwuY29tDAsSB1Byb2dyYW0YhH0M)
-
-  * [Lambda: first-order syntax (FOCL, without Error)](http://hosc.appspot.com/view?key=agpzfmhvc2MtaHJkcjULEgZBdXRob3IiGnNlcmdlaS5yb21hbmVua29AZ21haWwuY29tDAsSB1Byb2dyYW0Y6YQBDA)
+  * [Lambda: first-order syntax (FOCL)][]
+  * [Lambda: first-order syntax (FOCL, without Error)][]
 
 В первом варианте, обрабатываемые данные представлены таким типом данных:
 
@@ -160,7 +159,7 @@ case-выражения вида
 
 ## Рекурсивные определения данных
 
-До недавнего времени в HLL, входном языке Хоска, рекурсивные определения
+До недавнего времени в HLL, входном языке [HOSC][]-а, рекурсивные определения
 можно было писать только для функций, но не для данных. Т.е.,
 рекурсивные определения, записанные в программе после `where`, дожны были
 иметь такой вид
@@ -169,7 +168,7 @@ case-выражения вида
 
 Однако, как показывает следующий пример
 
-  * [a = X a](http://hosc.appspot.com/view?key=agpzfmhvc2MtaHJkcjQLEgZBdXRob3IiGnNlcmdlaS5yb21hbmVua29AZ21haWwuY29tDAsSB1Byb2dyYW0Ywj4M)
+  * [a = X a][]
 
 с помощью рекурсивных функций можно было запросто генерировать
 бесконечные структуры данных. В результате суперкомпиляции следующей
@@ -191,18 +190,18 @@ case-выражения вида
     data Unit = U ;
     letrec g=(X g) in g
 
-Явная непоследовательность! Суперкомпилятор Хоск умеет заменять
+Явная непоследовательность! Суперкомпилятор [HOSC][] умеет заменять
 рекурсивные определения функций, генерирующие бесконечные структуры
 данных на явные уравнения, определяющие данные. И это - хорошо, ибо
 упрощает и проясняет структуру программы. Но почему же не разрешать
 писать такие определения прямо в исходной программе (в случаях, когда
 это удобно)?
 
-Кстати, Хоск справляется и со случаями, когда функция определяется
+Кстати, [HOSC][] справляется и со случаями, когда функция определяется
 рекурсивно вызывая себя не напрямую, а через другие функции. Вот
 соответствующий пример
 
-  * [p = A q; q = B p;](http://hosc.appspot.com/view?key=agpzfmhvc2MtaHJkcjQLEgZBdXRob3IiGnNlcmdlaS5yb21hbmVua29AZ21haWwuY29tDAsSB1Byb2dyYW0Yk04M)
+  * [p = A q; q = B p;][]
 
 Суперкомпилируем программу
 
@@ -232,7 +231,7 @@ case-выражения вида
     p = A q;
     q = B p;
 
-И Хоск теперь это разрешает. Что хорошо, поскольку бесконечные структуры
+И [HOSC][] теперь это разрешает. Что хорошо, поскольку бесконечные структуры
 данных удобны для моделирования систем, которые способны
 работать бесконечно долго (не выдавая никакого "окончательного"
 результата). Пример такой системы - Microsoft Windows. :-)
@@ -242,7 +241,7 @@ case-выражения вида
 уместно. В качестве (упрощенческого) примера такого рода рассмотрим
 забавный пример
 
-  * [repeat [True, False]](http://hosc.appspot.com/view?key=agpzfmhvc2MtaHJkcjQLEgZBdXRob3IiGnNlcmdlaS5yb21hbmVua29AZ21haWwuY29tDAsSB1Byb2dyYW0Y2TYM)
+  * [repeat [True, False]][repeat-True-False]
 
 В этом примере определяются две функции `enqueue` и `repeat`.
 
@@ -280,9 +279,9 @@ case-выражения вида
 сообразил, что можно построить цикл в графе конфигураций. А о том, что
 то же самое можно было бы записать в более краткой форме
 
-    letrec f=(Cons True (Cons False f)) in f
+    letrec f = (Cons True (Cons False f)) in f
 
-Хоск не догадался. "Мозгов" ему не хватило... Но и так результат неплохой.
+[HOSC][] не догадался. "Мозгов" ему не хватило... Но и так результат неплохой.
 
 ---
 
@@ -291,3 +290,15 @@ case-выражения вида
 [SCP4]: http://www.botik.ru/pub/local/scp/refal5/references.html
 
 [SPSC]: https://sergei-romanenko.github.io/spsc/
+
+[HOSC]: https://sergei-romanenko.github.io/hosc-docs/
+
+[Lambda: first-order syntax (FOCL)]: http://hosc.appspot.com/view?key=agpzfmhvc2MtaHJkcjQLEgZBdXRob3IiGnNlcmdlaS5yb21hbmVua29AZ21haWwuY29tDAsSB1Byb2dyYW0YhH0M
+
+[Lambda: first-order syntax (FOCL, without Error)]: http://hosc.appspot.com/view?key=agpzfmhvc2MtaHJkcjULEgZBdXRob3IiGnNlcmdlaS5yb21hbmVua29AZ21haWwuY29tDAsSB1Byb2dyYW0Y6YQBDA
+
+[a = X a]: http://hosc.appspot.com/view?key=agpzfmhvc2MtaHJkcjQLEgZBdXRob3IiGnNlcmdlaS5yb21hbmVua29AZ21haWwuY29tDAsSB1Byb2dyYW0Ywj4M
+
+[p = A q; q = B p;]: http://hosc.appspot.com/view?key=agpzfmhvc2MtaHJkcjQLEgZBdXRob3IiGnNlcmdlaS5yb21hbmVua29AZ21haWwuY29tDAsSB1Byb2dyYW0Yk04M
+
+[repeat-True-False]: http://hosc.appspot.com/view?key=agpzfmhvc2MtaHJkcjQLEgZBdXRob3IiGnNlcmdlaS5yb21hbmVua29AZ21haWwuY29tDAsSB1Byb2dyYW0Y2TYM
