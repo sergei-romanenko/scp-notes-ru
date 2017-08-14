@@ -257,9 +257,9 @@ a\*b+a\*c - уже факт из алгебры.
 однако:
 
 * Базисный Рефал и его реализация на вычислительных машинах. М.:
-  ЦНИПИАСС, 1977. - 258 с. Стр. 92-95
-  [DJVU](http://pat.keldysh.ru/%7Eroman/doc/Turchin/1977-Turchin--Bazisnyj_Refal_i_ego_realizacija_na_vychislitel'nyx_mashinax--CNIPIASS--ru--pp92-95.djvu)
-  [PDF](http://pat.keldysh.ru/%7Eroman/doc/Turchin/1977-Turchin--Bazisnyj_Refal_i_ego_realizacija_na_vychislitel'nyx_mashinax--CNIPIASS--ru--pp92-95.pdf)
+  ЦНИПИАСС, 1977. - 258 с. Стр. 92-95.
+  [DJVU](http://pat.keldysh.ru/~roman/doc/1977___Bazisnyj_Refal_i_ego_realizaciya_na_vychislitel'nyx_mashinax__CNIPIASS.djvu)
+  [PDF](http://pat.keldysh.ru/~roman/doc/1977___Bazisnyj_Refal_i_ego_realizaciya_na_vychislitel'nyx_mashinax__CNIPIASS.pdf)
 
 Анекдотическая подробность этого дела заключалась в том, что книга, в
 довершение всего, была издана вообще анонимно(!). Кроме этого, все
