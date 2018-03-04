@@ -320,13 +320,13 @@ choice). А можно выбирать в тот момент, когда ко�
 
 Теперь пробуем просуперкомпилировать некоторые выражения:
 
-run (choice2 (cst True) (cst False)) ⟹
-  \c -> case c of { L c1 -> True; R c2 -> False; }
+    run (choice2 (cst True) (cst False)) ⟹
+      \c -> case c of { L c1 -> True; R c2 -> False; }
 
-run (choice2 (cst Z) (choice2 (cst (S Z)) (cst (S(S Z))))) ⟹
-  \c -> case c of {
-    L c1 -> Z;
-    R c2 -> case c2 of { L c21 -> S Z; R c22 -> S (S Z); }; }
+    run (choice2 (cst Z) (choice2 (cst (S Z)) (cst (S(S Z))))) ⟹
+      \c -> case c of {
+        L c1 -> Z;
+        R c2 -> case c2 of { L c21 -> S Z; R c22 -> S (S Z); }; }
 
 Теперь определим самые главные комбинаторы - `var`, `lam` и `app`:
 
